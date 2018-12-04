@@ -1,0 +1,2 @@
+class PulseRecord < ApplicationRecord
+end
