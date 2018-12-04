@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2018_12_04_153833) do
 
   create_table "pulse_records", force: :cascade do |t|
     t.string "bpm"
-    t.date "timestamp", default: "2018-12-04"
+    t.datetime "timestamp", default: "2018-12-04 15:46:31"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
